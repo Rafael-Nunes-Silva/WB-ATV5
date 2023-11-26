@@ -1,0 +1,55 @@
+.navbar {
+    background-color: pink;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0px auto;
+
+    gap: 5px;
+}
+
+.nav-buttons .nav-button {
+    background-color: blueviolet;
+    color: white;
+
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.navbar-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: -4vw auto 15px auto;
+    padding: 0px 5px;
+    border-radius: 25px;
+}
+
+.navbar-title h1 {
+    font-size: 3vw;
+    color: transparent;
+
+    -webkit-text-stroke: 1px blueviolet;
+}
+
+.navbar-title-sec {
+    position: absolute;
+
+    color: pink !important;
+    opacity: 50%;
+}

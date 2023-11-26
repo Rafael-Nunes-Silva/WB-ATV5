@@ -1,0 +1,29 @@
+header {
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.header-title-container {
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+}
+
+.header-title {
+    color: white;
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    font-family: allana-beauty;
+    font-size: 48px;
+}

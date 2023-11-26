@@ -1,0 +1,33 @@
+.button {
+    background-color: pink;
+    
+    text-align: center;
+
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sec-button {
+    background-color: blueviolet;
+    color: white;
+    
+    text-align: center;
+
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button-num-input {
+    margin: auto 10px;
+    width: 30px;
+
+    text-align: center;
+}

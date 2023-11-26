@@ -1,0 +1,22 @@
+.texto-indicador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8% 5px;
+    border-radius: 25px;
+}
+
+.texto-indicador h1 {
+    font-size: 15vw;
+    color: transparent;
+
+    -webkit-text-stroke: 0.3vw blueviolet;
+}
+
+.indicador-sec {
+    position: absolute;
+
+    color: pink !important;
+    opacity: 50%;
+}
